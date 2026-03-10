@@ -1,0 +1,47 @@
+{
+  "name": "event-impact-model-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Frontend dashboard for the Event Impact Model analytics workspace",
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.21",
+    "plotly.js": "^3.4.0",
+    "plotly.js-cartesian-dist-min": "^3.4.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-plotly.js": "^2.6.0",
+    "react-router-dom": "^7.13.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-plotly.js": "^2.6.4",
+    "@vitejs/plugin-react": "^5.1.4",
+    "autoprefixer": "^10.4.27",
+    "jsdom": "^28.1.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vitest": "^4.0.18"
+  }
+}

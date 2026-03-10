@@ -1,0 +1,15 @@
+event_id,event_type,event_name,timestamp,timezone,country,category,expected,actual,surprise,surprise_pct,importance,notes,source
+FOMC-2023-02,FOMC,FOMC Decision Feb 2023,2023-02-01 14:00:00,US/Eastern,US,monetary_policy,4.75,4.75,0.0,0.0,high,25bp hike as expected,Fed
+FOMC-2023-03,FOMC,FOMC Decision Mar 2023,2023-03-22 14:00:00,US/Eastern,US,monetary_policy,5.0,5.0,0.0,0.0,high,25bp hike amid bank stress,Fed
+FOMC-2023-05,FOMC,FOMC Decision May 2023,2023-05-03 14:00:00,US/Eastern,US,monetary_policy,5.25,5.25,0.0,0.0,high,25bp hike,Fed
+FOMC-2023-06,FOMC,FOMC Decision Jun 2023,2023-06-14 14:00:00,US/Eastern,US,monetary_policy,5.25,5.25,0.0,0.0,high,Pause as expected,Fed
+FOMC-2023-07,FOMC,FOMC Decision Jul 2023,2023-07-26 14:00:00,US/Eastern,US,monetary_policy,5.5,5.5,0.0,0.0,high,25bp hike,Fed
+FOMC-2023-09,FOMC,FOMC Decision Sep 2023,2023-09-20 14:00:00,US/Eastern,US,monetary_policy,5.5,5.5,0.0,0.0,high,Hold - hawkish dots,Fed
+FOMC-2023-11,FOMC,FOMC Decision Nov 2023,2023-11-01 14:00:00,US/Eastern,US,monetary_policy,5.5,5.5,0.0,0.0,high,Hold,Fed
+FOMC-2023-12,FOMC,FOMC Decision Dec 2023,2023-12-13 14:00:00,US/Eastern,US,monetary_policy,5.5,5.5,0.0,0.0,high,Dovish pivot signal,Fed
+FOMC-2024-01,FOMC,FOMC Decision Jan 2024,2024-01-31 14:00:00,US/Eastern,US,monetary_policy,5.5,5.5,0.0,0.0,high,Hold,Fed
+FOMC-2024-03,FOMC,FOMC Decision Mar 2024,2024-03-20 14:00:00,US/Eastern,US,monetary_policy,5.5,5.5,0.0,0.0,high,Hold - still 3 cuts projected,Fed
+FOMC-2024-05,FOMC,FOMC Decision May 2024,2024-05-01 14:00:00,US/Eastern,US,monetary_policy,5.5,5.5,0.0,0.0,high,Hold,Fed
+FOMC-2024-06,FOMC,FOMC Decision Jun 2024,2024-06-12 14:00:00,US/Eastern,US,monetary_policy,5.5,5.5,0.0,0.0,high,Hold - fewer cuts projected,Fed
+FOMC-2024-07,FOMC,FOMC Decision Jul 2024,2024-07-31 14:00:00,US/Eastern,US,monetary_policy,5.5,5.5,0.0,0.0,high,Hold - door open for Sep cut,Fed
+FOMC-2024-09,FOMC,FOMC Decision Sep 2024,2024-09-18 14:00:00,US/Eastern,US,monetary_policy,5.25,5.0,-0.25,-4.8,high,50bp cut - larger than expected,Fed

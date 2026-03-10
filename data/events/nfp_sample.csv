@@ -1,0 +1,19 @@
+event_id,event_type,event_name,timestamp,timezone,country,category,expected,actual,surprise,surprise_pct,importance,notes,source
+NFP-2023-01,NFP,Nonfarm Payrolls Jan 2023,2023-02-03 08:30:00,US/Eastern,US,employment,185,517,332,179.5,high,Massive upside surprise,BLS
+NFP-2023-02,NFP,Nonfarm Payrolls Feb 2023,2023-03-10 08:30:00,US/Eastern,US,employment,215,311,96,44.7,high,Strong beat,BLS
+NFP-2023-03,NFP,Nonfarm Payrolls Mar 2023,2023-04-07 08:30:00,US/Eastern,US,employment,240,236,-4,-1.7,high,Roughly inline,BLS
+NFP-2023-04,NFP,Nonfarm Payrolls Apr 2023,2023-05-05 08:30:00,US/Eastern,US,employment,180,253,73,40.6,high,Solid beat,BLS
+NFP-2023-05,NFP,Nonfarm Payrolls May 2023,2023-06-02 08:30:00,US/Eastern,US,employment,190,339,149,78.4,high,Very strong,BLS
+NFP-2023-06,NFP,Nonfarm Payrolls Jun 2023,2023-07-07 08:30:00,US/Eastern,US,employment,225,209,-16,-7.1,high,Slight miss,BLS
+NFP-2023-07,NFP,Nonfarm Payrolls Jul 2023,2023-08-04 08:30:00,US/Eastern,US,employment,200,187,-13,-6.5,high,Slight miss,BLS
+NFP-2023-08,NFP,Nonfarm Payrolls Aug 2023,2023-09-01 08:30:00,US/Eastern,US,employment,170,187,17,10.0,high,Small beat,BLS
+NFP-2023-09,NFP,Nonfarm Payrolls Sep 2023,2023-10-06 08:30:00,US/Eastern,US,employment,170,336,166,97.6,high,Massive beat,BLS
+NFP-2023-10,NFP,Nonfarm Payrolls Oct 2023,2023-11-03 08:30:00,US/Eastern,US,employment,180,150,-30,-16.7,high,Miss,BLS
+NFP-2023-11,NFP,Nonfarm Payrolls Nov 2023,2023-12-08 08:30:00,US/Eastern,US,employment,185,199,14,7.6,high,Small beat,BLS
+NFP-2024-01,NFP,Nonfarm Payrolls Jan 2024,2024-02-02 08:30:00,US/Eastern,US,employment,180,353,173,96.1,high,Huge surprise,BLS
+NFP-2024-02,NFP,Nonfarm Payrolls Feb 2024,2024-03-08 08:30:00,US/Eastern,US,employment,200,275,75,37.5,high,Strong beat,BLS
+NFP-2024-03,NFP,Nonfarm Payrolls Mar 2024,2024-04-05 08:30:00,US/Eastern,US,employment,214,303,89,41.6,high,Solid beat,BLS
+NFP-2024-04,NFP,Nonfarm Payrolls Apr 2024,2024-05-03 08:30:00,US/Eastern,US,employment,243,175,-68,-28.0,high,Big miss,BLS
+NFP-2024-05,NFP,Nonfarm Payrolls May 2024,2024-06-07 08:30:00,US/Eastern,US,employment,185,272,87,47.0,high,Strong beat,BLS
+NFP-2024-06,NFP,Nonfarm Payrolls Jun 2024,2024-07-05 08:30:00,US/Eastern,US,employment,190,206,16,8.4,high,Small beat,BLS
+NFP-2024-07,NFP,Nonfarm Payrolls Jul 2024,2024-08-02 08:30:00,US/Eastern,US,employment,175,114,-61,-34.9,high,Big miss - recession fears,BLS

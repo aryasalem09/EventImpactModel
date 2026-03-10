@@ -1,0 +1,9 @@
+event_id,event_type,event_name,timestamp,timezone,country,category,expected,actual,surprise,surprise_pct,importance,notes,source
+EARN-AAPL-2024Q1,EARNINGS,Apple Q1 2024,2024-02-01 16:30:00,US/Eastern,US,earnings,2.10,2.18,0.08,3.8,high,Beat on EPS,Company Filing
+EARN-MSFT-2024Q2,EARNINGS,Microsoft Q2 2024,2024-01-30 16:30:00,US/Eastern,US,earnings,2.78,2.93,0.15,5.4,high,Strong beat - cloud growth,Company Filing
+EARN-GOOGL-2024Q1,EARNINGS,Alphabet Q1 2024,2024-01-30 16:30:00,US/Eastern,US,earnings,1.59,1.64,0.05,3.1,high,Beat with dividend announcement,Company Filing
+EARN-AMZN-2024Q1,EARNINGS,Amazon Q1 2024,2024-02-01 16:30:00,US/Eastern,US,earnings,0.83,1.00,0.17,20.5,high,Big EPS beat,Company Filing
+EARN-NVDA-2024Q4,EARNINGS,NVIDIA Q4 2024,2024-02-21 16:30:00,US/Eastern,US,earnings,4.59,5.16,0.57,12.4,high,Massive beat - AI demand,Company Filing
+EARN-META-2024Q4,EARNINGS,Meta Q4 2023,2024-02-01 16:30:00,US/Eastern,US,earnings,4.96,5.33,0.37,7.5,high,Beat + dividend + buyback,Company Filing
+EARN-TSLA-2024Q1,EARNINGS,Tesla Q1 2024,2024-01-24 16:30:00,US/Eastern,US,earnings,0.73,0.71,-0.02,-2.7,high,Miss - margin pressure,Company Filing
+EARN-JPM-2024Q1,EARNINGS,JPMorgan Q1 2024,2024-01-12 07:00:00,US/Eastern,US,earnings,3.97,4.44,0.47,11.8,high,Strong NII beat,Company Filing

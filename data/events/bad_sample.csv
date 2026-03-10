@@ -1,0 +1,8 @@
+event_id,event_type,event_name,timestamp,timezone,country,category,expected,actual,surprise,surprise_pct,importance,notes,source
+BAD-001,CPI,Valid Event,2024-01-15 08:30:00,US/Eastern,US,inflation,3.0,3.1,0.1,3.3,high,This one is fine,Test
+,CPI,Missing ID,,US/Eastern,US,inflation,3.0,3.1,0.1,3.3,high,Missing event_id and timestamp,Test
+BAD-003,,Missing Type,2024-02-15 08:30:00,US/Eastern,US,inflation,3.0,3.1,0.1,3.3,high,Missing event_type,Test
+BAD-004,CPI,,2024-03-15 08:30:00,US/Eastern,US,inflation,3.0,3.1,0.1,3.3,high,Missing event_name,Test
+BAD-005,CPI,Bad Timestamp,not-a-date,US/Eastern,US,inflation,3.0,3.1,0.1,3.3,high,Invalid timestamp format,Test
+BAD-006,CPI,Bad Numbers,2024-04-15 08:30:00,US/Eastern,US,inflation,abc,xyz,nope,nah,high,Non-numeric expected/actual,Test
+BAD-007,CPI,Partial Data,2024-05-15 08:30:00,US/Eastern,US,inflation,,,,,medium,Missing optional fields - should still load,Test

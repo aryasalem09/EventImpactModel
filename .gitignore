@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+*.egg
+.pytest_cache/
+.ruff_cache/
+
+# Data cache
+data/prices/
+data/cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/node_modules/.vite/
+*.tsbuildinfo
+
+# Environment
+.env
+*.log
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
