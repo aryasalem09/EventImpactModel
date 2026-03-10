@@ -1,8 +1,9 @@
 """Application configuration driven by environment variables and defaults."""
 
+import json
 from pathlib import Path
 
-from pydantic import Field
+from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -47,6 +48,16 @@ class Settings(BaseSettings):
     max_history_years: int = 10
 
     model_config = {"env_prefix": "EIM_", "env_file": str(PROJECT_ROOT / ".env")}
+
+    @field_validator("cors_origins", mode="before")
+    @classmethod
+    def parse_cors_origins(cls, value: str | list[str]) -> str | list[str]:
+        if isinstance(value, str):
+            stripped = value.strip()
+            if stripped.startswith("["):
+                return json.loads(stripped)
+            return [item.strip() for item in stripped.split(",") if item.strip()]
+        return value
 
 
 settings = Settings()

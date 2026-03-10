@@ -120,6 +120,44 @@ Useful settings:
 - `EIM_DEFAULT_ESTIMATION_WINDOW`
 - `EIM_DEFAULT_BENCHMARK`
 - `EIM_ROLLING_VOL_WINDOW`
+- `EIM_CORS_ORIGINS`
+
+## Deployment
+
+Recommended setup:
+
+- Frontend on Vercel from the `frontend/` directory
+- Backend on Render from the repository root, with commands targeting `backend/`
+
+### Vercel
+
+- Root directory: `frontend`
+- Build command: `npm run build`
+- Output directory: `dist`
+- Environment variable:
+
+```bash
+VITE_API_BASE_URL=https://your-render-service.onrender.com
+```
+
+`frontend/vercel.json` is included so React Router routes resolve correctly on direct navigation.
+
+### Render
+
+Use a Python web service with these settings:
+
+```bash
+Build Command: cd backend && pip install -e .
+Start Command: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+```
+
+Set at least:
+
+```bash
+EIM_CORS_ORIGINS=["http://localhost:5173","https://your-frontend.vercel.app"]
+```
+
+If you want cached price data to survive redeploys and restarts, attach a persistent disk and point your cache storage there in a future iteration. Render web services do not keep runtime-written files permanently by default.
 
 ## API endpoints
 
